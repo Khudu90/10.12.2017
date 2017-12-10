@@ -1,0 +1,93 @@
+xudu9@XuduXudiyev MINGW64 /d/Tehsil/CodeA/P402 (master)
+$ echo "# 09.12.2017" >> README.md
+
+xudu9@XuduXudiyev MINGW64 /d/Tehsil/CodeA/P402 (master)
+$
+
+xudu9@XuduXudiyev MINGW64 /d/Tehsil/CodeA/P402 (master)
+$
+
+xudu9@XuduXudiyev MINGW64 /d/Tehsil/CodeA/P402 (master)
+$ git init
+Reinitialized existing Git repository in D:/Tehsil/CodeA/P402/.git/
+
+xudu9@XuduXudiyev MINGW64 /d/Tehsil/CodeA/P402 (master)
+$ git add README.md
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory.
+
+xudu9@XuduXudiyev MINGW64 /d/Tehsil/CodeA/P402 (master)
+$ git commit -m "first commit"
+[master 53a873b] first commit
+ 1 file changed, 1 deletion(-)
+
+xudu9@XuduXudiyev MINGW64 /d/Tehsil/CodeA/P402 (master)
+$ git remote add origin https://github.com/Khudu90/09.12.2017.git
+fatal: remote origin already exists.
+
+xudu9@XuduXudiyev MINGW64 /d/Tehsil/CodeA/P402 (master)
+$ git push -u origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Khudu90/09.12.2017.git/'
+
+xudu9@XuduXudiyev MINGW64 /d/Tehsil/CodeA/P402 (master)
+$ git push -u origin master
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (6/6), 449 bytes | 449.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/Khudu90/09.12.2017.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+xudu9@XuduXudiyev MINGW64 /d/Tehsil/CodeA/P402 (master)
+$ touch test.txt
+
+xudu9@XuduXudiyev MINGW64 /d/Tehsil/CodeA/P402 (master)
+$ git add test.txt
+
+xudu9@XuduXudiyev MINGW64 /d/Tehsil/CodeA/P402 (master)
+$ git co
+commit   config
+
+xudu9@XuduXudiyev MINGW64 /d/Tehsil/CodeA/P402 (master)
+$ git commit -m "Salam"
+[master 84110a9] Salam
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+xudu9@XuduXudiyev MINGW64 /d/Tehsil/CodeA/P402 (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 271 bytes | 135.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Khudu90/09.12.2017.git
+   53a873b..84110a9  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+xudu9@XuduXudiyev MINGW64 /d/Tehsil/CodeA/P402 (master)
+$ git add test.txt
+
+xudu9@XuduXudiyev MINGW64 /d/Tehsil/CodeA/P402 (master)
+$ git commit -m "Salam"
+[master 135dff5] Salam
+ 1 file changed, 2 insertions(+)
+
+xudu9@XuduXudiyev MINGW64 /d/Tehsil/CodeA/P402 (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 300 bytes | 300.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Khudu90/09.12.2017.git
+   84110a9..135dff5  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+xudu9@XuduXudiyev MINGW64 /d/Tehsil/CodeA/P402 (master)
+$
